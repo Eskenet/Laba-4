@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: untitled9
+# Project: untitled14
 # Configurations: Debug
 # =============================================================================
 
@@ -39,49 +39,49 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/ASUS/CLionProjects/untitled9/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/ASUS/CLionProjects/untitled14/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target untitled9
+# Object build statements for EXECUTABLE target untitled14
 
 
 #############################################
-# Order-only phony target for untitled9
+# Order-only phony target for untitled14
 
-build cmake_object_order_depends_target_untitled9: phony || CMakeFiles/untitled9.dir
+build cmake_object_order_depends_target_untitled14: phony || CMakeFiles/untitled14.dir
 
-build CMakeFiles/untitled9.dir/main.cpp.obj: CXX_COMPILER__untitled9_Debug C$:/Users/ASUS/CLionProjects/untitled9/main.cpp || cmake_object_order_depends_target_untitled9
-  DEP_FILE = CMakeFiles\untitled9.dir\main.cpp.obj.d
+build CMakeFiles/untitled14.dir/main.cpp.obj: CXX_COMPILER__untitled14_Debug C$:/Users/ASUS/CLionProjects/untitled14/main.cpp || cmake_object_order_depends_target_untitled14
+  DEP_FILE = CMakeFiles\untitled14.dir\main.cpp.obj.d
   FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles\untitled9.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled9.dir
-  TARGET_COMPILE_PDB = CMakeFiles\untitled9.dir\
-  TARGET_PDB = untitled9.pdb
+  OBJECT_DIR = CMakeFiles\untitled14.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled14.dir
+  TARGET_COMPILE_PDB = CMakeFiles\untitled14.dir\
+  TARGET_PDB = untitled14.pdb
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target untitled9
+# Link build statements for EXECUTABLE target untitled14
 
 
 #############################################
-# Link the executable untitled9.exe
+# Link the executable untitled14.exe
 
-build untitled9.exe: CXX_EXECUTABLE_LINKER__untitled9_Debug CMakeFiles/untitled9.dir/main.cpp.obj
+build untitled14.exe: CXX_EXECUTABLE_LINKER__untitled14_Debug CMakeFiles/untitled14.dir/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\untitled9.dir
+  OBJECT_DIR = CMakeFiles\untitled14.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\untitled9.dir\
-  TARGET_FILE = untitled9.exe
-  TARGET_IMPLIB = libuntitled9.dll.a
-  TARGET_PDB = untitled9.pdb
+  TARGET_COMPILE_PDB = CMakeFiles\untitled14.dir\
+  TARGET_FILE = untitled14.exe
+  TARGET_IMPLIB = libuntitled14.dll.a
+  TARGET_PDB = untitled14.pdb
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\ASUS\CLionProjects\untitled9\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\ASUS\CLionProjects\untitled14\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -92,7 +92,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\ASUS\CLionProjects\untitled9\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\ASUS\CLionProjects\untitled9 -BC:\Users\ASUS\CLionProjects\untitled9\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\ASUS\CLionProjects\untitled14\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\ASUS\CLionProjects\untitled14 -BC:\Users\ASUS\CLionProjects\untitled14\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -102,7 +102,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build untitled9: phony untitled9.exe
+build untitled14: phony untitled14.exe
 
 # =============================================================================
 # Folder targets.
@@ -110,9 +110,9 @@ build untitled9: phony untitled9.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/ASUS/CLionProjects/untitled9/cmake-build-debug
+# Folder: C:/Users/ASUS/CLionProjects/untitled14/cmake-build-debug
 
-build all: phony untitled9.exe
+build all: phony untitled14.exe
 
 # =============================================================================
 # Built-in targets

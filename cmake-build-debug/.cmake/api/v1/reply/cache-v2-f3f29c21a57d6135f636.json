@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/ASUS/CLionProjects/untitled9/cmake-build-debug"
+			"value" : "c:/Users/ASUS/CLionProjects/untitled14/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -623,7 +623,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/ASUS/CLionProjects/untitled9"
+			"value" : "C:/Users/ASUS/CLionProjects/untitled14"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -635,7 +635,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/untitled9"
+			"value" : "C:/Program Files (x86)/untitled14"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -851,7 +851,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "untitled9"
+			"value" : "untitled14"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1230,7 +1230,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "untitled9_BINARY_DIR",
+			"name" : "untitled14_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1239,10 +1239,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/ASUS/CLionProjects/untitled9/cmake-build-debug"
+			"value" : "C:/Users/ASUS/CLionProjects/untitled14/cmake-build-debug"
 		},
 		{
-			"name" : "untitled9_IS_TOP_LEVEL",
+			"name" : "untitled14_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1254,7 +1254,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "untitled9_SOURCE_DIR",
+			"name" : "untitled14_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1263,7 +1263,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/ASUS/CLionProjects/untitled9"
+			"value" : "C:/Users/ASUS/CLionProjects/untitled14"
 		}
 	],
 	"kind" : "cache",

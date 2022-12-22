@@ -1,33 +1,42 @@
 #include <iostream>
 
-struct Warrior{
-    int Health;
-    int Armor;
-    int Shield;
-    int Weapon;
+struct Calculator{
+    int number;
 
-    bool operator<(Warrior Enemy) const{
-        if (this->Health / (Enemy.Weapon - (this->Armor + this->Shield)) < (Enemy.Health / (this->Weapon - (Enemy.Armor + Enemy.Shield)))){
-            return true;
+    int operator+(Calculator second)const{
+        return this->number + second.number;
+    };
+
+    int operator-(Calculator second)const{
+        return this->number - second.number;
+    };
+
+    int operator*(Calculator second)const{
+        return this->number * second.number;
+    };
+
+    int operator^(Calculator second)const{
+        int k = this->number;
+        for(int i = 1; i < second.number; i++){
+            k = k * this->number;
         }
-        else{
-            return false;
+        return k;
+    };
+
+    int operator!()const{
+        int k = 1;
+        for(int i = 1; i < this->number + 1; i++){
+            k = k * i;
         }
+        return k;
     }
 };
 
-void Fight(Warrior Attacker, Warrior Defender){
-    if (Attacker<Defender){
-        std::cout << "You Died!";
-    }
-    else{
-        std::cout << "Enemy is Defeated!";
-    }
-}
-
 int main() {
-    Warrior Enemy{5800, 200, 50, 500};
-    Warrior Player{2400, 180, 40, 600};
-    Fight(Player, Enemy);
+    int a,b;
+    std::cin>> a >> b;
+    Calculator first{a};
+    Calculator second{b};
+    std::cout << (first*second) << std::endl;
     return 0;
 }
